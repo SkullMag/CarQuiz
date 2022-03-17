@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CD877241FBC512000DF0E81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD877231FBC512000DF0E81 /* AppDelegate.swift */; };
+		7CD877261FBC512000DF0E81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD877251FBC512000DF0E81 /* ViewController.swift */; };
+		7CD877291FBC512000DF0E81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CD877271FBC512000DF0E81 /* Main.storyboard */; };
+		7CD8772B1FBC512000DF0E81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CD8772A1FBC512000DF0E81 /* Assets.xcassets */; };
+		7CD8772E1FBC512000DF0E81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CD8772C1FBC512000DF0E81 /* LaunchScreen.storyboard */; };
+		7CD877391FBC512000DF0E81 /* QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD877381FBC512000DF0E81 /* QuizUITests.swift */; };
+		7CD877441FBD83D700DF0E81 /* Chevrolet-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD877431FBD83D700DF0E81 /* Chevrolet-logo.png */; };
+		7CD877461FBD9D3F00DF0E81 /* Mercedes-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD877451FBD9D3F00DF0E81 /* Mercedes-logo.png */; };
+		7CD877491FBD9EC700DF0E81 /* Corvette-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD877481FBD9EC700DF0E81 /* Corvette-logo.png */; };
+		7CD8774B1FBD9F0500DF0E81 /* Lincoln-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD8774A1FBD9F0500DF0E81 /* Lincoln-logo.png */; };
+		7CD8774D1FBD9F3600DF0E81 /* Cadillac-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD8774C1FBD9F3600DF0E81 /* Cadillac-logo.png */; };
+		7CD8774F1FBD9F8E00DF0E81 /* Ferrari-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD8774E1FBD9F8E00DF0E81 /* Ferrari-logo.png */; };
+		7CD877511FBD9F9A00DF0E81 /* Genesis-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD877501FBD9F9A00DF0E81 /* Genesis-logo.png */; };
+		7CD877531FBDA0A600DF0E81 /* Geely-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD877521FBDA0A500DF0E81 /* Geely-logo.png */; };
+		7CD877641FBDA0DC00DF0E81 /* Buick-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD877541FBDA0DB00DF0E81 /* Buick-logo.png */; };
+		7CD877651FBDA0DC00DF0E81 /* Maserati-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD877551FBDA0DB00DF0E81 /* Maserati-logo.png */; };
+		7CD877661FBDA0DC00DF0E81 /* W-Motors-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD877561FBDA0DB00DF0E81 /* W-Motors-logo.png */; };
+		7CD877671FBDA0DC00DF0E81 /* Subaru-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD877571FBDA0DB00DF0E81 /* Subaru-logo.png */; };
+		7CD877681FBDA0DC00DF0E81 /* Maybach-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD877581FBDA0DB00DF0E81 /* Maybach-logo.png */; };
+		7CD877691FBDA0DC00DF0E81 /* Mustang-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD877591FBDA0DB00DF0E81 /* Mustang-logo.png */; };
+		7CD8776A1FBDA0DC00DF0E81 /* Koenigsegg-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD8775A1FBDA0DB00DF0E81 /* Koenigsegg-logo.png */; };
+		7CD8776B1FBDA0DC00DF0E81 /* GAZ-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD8775B1FBDA0DB00DF0E81 /* GAZ-logo.png */; };
+		7CD8776C1FBDA0DC00DF0E81 /* Volkswagen-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD8775C1FBDA0DB00DF0E81 /* Volkswagen-logo.png */; };
+		7CD8776D1FBDA0DC00DF0E81 /* Jaguar-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD8775D1FBDA0DB00DF0E81 /* Jaguar-logo.png */; };
+		7CD8776E1FBDA0DC00DF0E81 /* Mazda-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD8775E1FBDA0DB00DF0E81 /* Mazda-logo.png */; };
+		7CD8776F1FBDA0DC00DF0E81 /* Viper-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD8775F1FBDA0DC00DF0E81 /* Viper-logo.png */; };
+		7CD877701FBDA0DC00DF0E81 /* Brabus-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD877601FBDA0DC00DF0E81 /* Brabus-logo.png */; };
+		7CD877711FBDA0DC00DF0E81 /* Mini-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD877611FBDA0DC00DF0E81 /* Mini-logo.png */; };
+		7CD877721FBDA0DC00DF0E81 /* Peugeot-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD877621FBDA0DC00DF0E81 /* Peugeot-logo.png */; };
+		7CD877731FBDA0DC00DF0E81 /* Shelby-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD877631FBDA0DC00DF0E81 /* Shelby-logo.png */; };
+		7CD877751FBDA10500DF0E81 /* Pontiac-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD877741FBDA10500DF0E81 /* Pontiac-logo.png */; };
+		7CD877771FBDA19A00DF0E81 /* mclaren-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD877761FBDA19900DF0E81 /* mclaren-logo.png */; };
+		7CD877791FBDA2A400DF0E81 /* Dodge-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD877781FBDA2A400DF0E81 /* Dodge-logo.png */; };
+		7CD8777B1FBDA2CA00DF0E81 /* Honda-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD8777A1FBDA2CA00DF0E81 /* Honda-logo.png */; };
+		7CD8777D1FBDA2DC00DF0E81 /* Skoda-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD8777C1FBDA2DC00DF0E81 /* Skoda-logo.png */; };
+		7CD8777F1FBDA30D00DF0E81 /* Lotus-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD8777E1FBDA30D00DF0E81 /* Lotus-logo.png */; };
+		7CD877811FBE282C00DF0E81 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD877801FBE282C00DF0E81 /* StartViewController.swift */; };
+		7CD877831FBE2F4800DF0E81 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD877821FBE2F4800DF0E81 /* FinishViewController.swift */; };
+		7CD877851FBE371D00DF0E81 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD877841FBE371D00DF0E81 /* iTunesArtwork@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CD877351FBC512000DF0E81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CD877181FBC512000DF0E81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CD8771F1FBC512000DF0E81;
+			remoteInfo = Quiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CD877201FBC512000DF0E81 /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CD877231FBC512000DF0E81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CD877251FBC512000DF0E81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CD877281FBC512000DF0E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CD8772A1FBC512000DF0E81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CD8772D1FBC512000DF0E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CD8772F1FBC512000DF0E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CD877341FBC512000DF0E81 /* QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CD877381FBC512000DF0E81 /* QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizUITests.swift; sourceTree = "<group>"; };
+		7CD8773A1FBC512000DF0E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CD877431FBD83D700DF0E81 /* Chevrolet-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chevrolet-logo.png"; sourceTree = "<group>"; };
+		7CD877451FBD9D3F00DF0E81 /* Mercedes-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mercedes-logo.png"; sourceTree = "<group>"; };
+		7CD877481FBD9EC700DF0E81 /* Corvette-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Corvette-logo.png"; sourceTree = "<group>"; };
+		7CD8774A1FBD9F0500DF0E81 /* Lincoln-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lincoln-logo.png"; sourceTree = "<group>"; };
+		7CD8774C1FBD9F3600DF0E81 /* Cadillac-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cadillac-logo.png"; sourceTree = "<group>"; };
+		7CD8774E1FBD9F8E00DF0E81 /* Ferrari-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ferrari-logo.png"; sourceTree = "<group>"; };
+		7CD877501FBD9F9A00DF0E81 /* Genesis-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Genesis-logo.png"; sourceTree = "<group>"; };
+		7CD877521FBDA0A500DF0E81 /* Geely-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Geely-logo.png"; sourceTree = "<group>"; };
+		7CD877541FBDA0DB00DF0E81 /* Buick-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Buick-logo.png"; sourceTree = "<group>"; };
+		7CD877551FBDA0DB00DF0E81 /* Maserati-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Maserati-logo.png"; sourceTree = "<group>"; };
+		7CD877561FBDA0DB00DF0E81 /* W-Motors-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "W-Motors-logo.png"; sourceTree = "<group>"; };
+		7CD877571FBDA0DB00DF0E81 /* Subaru-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Subaru-logo.png"; sourceTree = "<group>"; };
+		7CD877581FBDA0DB00DF0E81 /* Maybach-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Maybach-logo.png"; sourceTree = "<group>"; };
+		7CD877591FBDA0DB00DF0E81 /* Mustang-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mustang-logo.png"; sourceTree = "<group>"; };
+		7CD8775A1FBDA0DB00DF0E81 /* Koenigsegg-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Koenigsegg-logo.png"; sourceTree = "<group>"; };
+		7CD8775B1FBDA0DB00DF0E81 /* GAZ-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GAZ-logo.png"; sourceTree = "<group>"; };
+		7CD8775C1FBDA0DB00DF0E81 /* Volkswagen-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Volkswagen-logo.png"; sourceTree = "<group>"; };
+		7CD8775D1FBDA0DB00DF0E81 /* Jaguar-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jaguar-logo.png"; sourceTree = "<group>"; };
+		7CD8775E1FBDA0DB00DF0E81 /* Mazda-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mazda-logo.png"; sourceTree = "<group>"; };
+		7CD8775F1FBDA0DC00DF0E81 /* Viper-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Viper-logo.png"; sourceTree = "<group>"; };
+		7CD877601FBDA0DC00DF0E81 /* Brabus-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brabus-logo.png"; sourceTree = "<group>"; };
+		7CD877611FBDA0DC00DF0E81 /* Mini-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mini-logo.png"; sourceTree = "<group>"; };
+		7CD877621FBDA0DC00DF0E81 /* Peugeot-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Peugeot-logo.png"; sourceTree = "<group>"; };
+		7CD877631FBDA0DC00DF0E81 /* Shelby-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shelby-logo.png"; sourceTree = "<group>"; };
+		7CD877741FBDA10500DF0E81 /* Pontiac-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pontiac-logo.png"; sourceTree = "<group>"; };
+		7CD877761FBDA19900DF0E81 /* mclaren-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mclaren-logo.png"; sourceTree = "<group>"; };
+		7CD877781FBDA2A400DF0E81 /* Dodge-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dodge-logo.png"; sourceTree = "<group>"; };
+		7CD8777A1FBDA2CA00DF0E81 /* Honda-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Honda-logo.png"; sourceTree = "<group>"; };
+		7CD8777C1FBDA2DC00DF0E81 /* Skoda-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Skoda-logo.png"; sourceTree = "<group>"; };
+		7CD8777E1FBDA30D00DF0E81 /* Lotus-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lotus-logo.png"; sourceTree = "<group>"; };
+		7CD877801FBE282C00DF0E81 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		7CD877821FBE2F4800DF0E81 /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		7CD877841FBE371D00DF0E81 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CD8771D1FBC512000DF0E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD877311FBC512000DF0E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CD877171FBC512000DF0E81 = {
+			isa = PBXGroup;
+			children = (
+				7CD877221FBC512000DF0E81 /* Quiz */,
+				7CD877371FBC512000DF0E81 /* QuizUITests */,
+				7CD877211FBC512000DF0E81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CD877211FBC512000DF0E81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CD877201FBC512000DF0E81 /* Quiz.app */,
+				7CD877341FBC512000DF0E81 /* QuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CD877221FBC512000DF0E81 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				7CD877231FBC512000DF0E81 /* AppDelegate.swift */,
+				7CD877801FBE282C00DF0E81 /* StartViewController.swift */,
+				7CD877251FBC512000DF0E81 /* ViewController.swift */,
+				7CD877821FBE2F4800DF0E81 /* FinishViewController.swift */,
+				7CD877271FBC512000DF0E81 /* Main.storyboard */,
+				7CD8772A1FBC512000DF0E81 /* Assets.xcassets */,
+				7CD8772C1FBC512000DF0E81 /* LaunchScreen.storyboard */,
+				7CD8772F1FBC512000DF0E81 /* Info.plist */,
+				7CD877841FBE371D00DF0E81 /* iTunesArtwork@2x.png */,
+				7CD877471FBD9D4800DF0E81 /* logos */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+		7CD877371FBC512000DF0E81 /* QuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CD877381FBC512000DF0E81 /* QuizUITests.swift */,
+				7CD8773A1FBC512000DF0E81 /* Info.plist */,
+			);
+			path = QuizUITests;
+			sourceTree = "<group>";
+		};
+		7CD877471FBD9D4800DF0E81 /* logos */ = {
+			isa = PBXGroup;
+			children = (
+				7CD877431FBD83D700DF0E81 /* Chevrolet-logo.png */,
+				7CD877761FBDA19900DF0E81 /* mclaren-logo.png */,
+				7CD877451FBD9D3F00DF0E81 /* Mercedes-logo.png */,
+				7CD877481FBD9EC700DF0E81 /* Corvette-logo.png */,
+				7CD8774A1FBD9F0500DF0E81 /* Lincoln-logo.png */,
+				7CD8774C1FBD9F3600DF0E81 /* Cadillac-logo.png */,
+				7CD8774E1FBD9F8E00DF0E81 /* Ferrari-logo.png */,
+				7CD877501FBD9F9A00DF0E81 /* Genesis-logo.png */,
+				7CD8777E1FBDA30D00DF0E81 /* Lotus-logo.png */,
+				7CD877521FBDA0A500DF0E81 /* Geely-logo.png */,
+				7CD877781FBDA2A400DF0E81 /* Dodge-logo.png */,
+				7CD877601FBDA0DC00DF0E81 /* Brabus-logo.png */,
+				7CD877741FBDA10500DF0E81 /* Pontiac-logo.png */,
+				7CD8777A1FBDA2CA00DF0E81 /* Honda-logo.png */,
+				7CD8777C1FBDA2DC00DF0E81 /* Skoda-logo.png */,
+				7CD877541FBDA0DB00DF0E81 /* Buick-logo.png */,
+				7CD8775B1FBDA0DB00DF0E81 /* GAZ-logo.png */,
+				7CD8775D1FBDA0DB00DF0E81 /* Jaguar-logo.png */,
+				7CD8775A1FBDA0DB00DF0E81 /* Koenigsegg-logo.png */,
+				7CD877551FBDA0DB00DF0E81 /* Maserati-logo.png */,
+				7CD877581FBDA0DB00DF0E81 /* Maybach-logo.png */,
+				7CD8775E1FBDA0DB00DF0E81 /* Mazda-logo.png */,
+				7CD877611FBDA0DC00DF0E81 /* Mini-logo.png */,
+				7CD877591FBDA0DB00DF0E81 /* Mustang-logo.png */,
+				7CD877621FBDA0DC00DF0E81 /* Peugeot-logo.png */,
+				7CD877631FBDA0DC00DF0E81 /* Shelby-logo.png */,
+				7CD877571FBDA0DB00DF0E81 /* Subaru-logo.png */,
+				7CD8775F1FBDA0DC00DF0E81 /* Viper-logo.png */,
+				7CD8775C1FBDA0DB00DF0E81 /* Volkswagen-logo.png */,
+				7CD877561FBDA0DB00DF0E81 /* W-Motors-logo.png */,
+			);
+			path = logos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CD8771F1FBC512000DF0E81 /* Quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CD8773D1FBC512000DF0E81 /* Build configuration list for PBXNativeTarget "Quiz" */;
+			buildPhases = (
+				7CD8771C1FBC512000DF0E81 /* Sources */,
+				7CD8771D1FBC512000DF0E81 /* Frameworks */,
+				7CD8771E1FBC512000DF0E81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quiz;
+			productName = Quiz;
+			productReference = 7CD877201FBC512000DF0E81 /* Quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CD877331FBC512000DF0E81 /* QuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CD877401FBC512000DF0E81 /* Build configuration list for PBXNativeTarget "QuizUITests" */;
+			buildPhases = (
+				7CD877301FBC512000DF0E81 /* Sources */,
+				7CD877311FBC512000DF0E81 /* Frameworks */,
+				7CD877321FBC512000DF0E81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CD877361FBC512000DF0E81 /* PBXTargetDependency */,
+			);
+			name = QuizUITests;
+			productName = QuizUITests;
+			productReference = 7CD877341FBC512000DF0E81 /* QuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CD877181FBC512000DF0E81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Oleg Rybalko";
+				TargetAttributes = {
+					7CD8771F1FBC512000DF0E81 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					7CD877331FBC512000DF0E81 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CD8771F1FBC512000DF0E81;
+					};
+				};
+			};
+			buildConfigurationList = 7CD8771B1FBC512000DF0E81 /* Build configuration list for PBXProject "Quiz" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CD877171FBC512000DF0E81;
+			productRefGroup = 7CD877211FBC512000DF0E81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CD8771F1FBC512000DF0E81 /* Quiz */,
+				7CD877331FBC512000DF0E81 /* QuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CD8771E1FBC512000DF0E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD877721FBDA0DC00DF0E81 /* Peugeot-logo.png in Resources */,
+				7CD877651FBDA0DC00DF0E81 /* Maserati-logo.png in Resources */,
+				7CD8777F1FBDA30D00DF0E81 /* Lotus-logo.png in Resources */,
+				7CD877791FBDA2A400DF0E81 /* Dodge-logo.png in Resources */,
+				7CD877491FBD9EC700DF0E81 /* Corvette-logo.png in Resources */,
+				7CD877691FBDA0DC00DF0E81 /* Mustang-logo.png in Resources */,
+				7CD8772E1FBC512000DF0E81 /* LaunchScreen.storyboard in Resources */,
+				7CD8777B1FBDA2CA00DF0E81 /* Honda-logo.png in Resources */,
+				7CD8776E1FBDA0DC00DF0E81 /* Mazda-logo.png in Resources */,
+				7CD8776F1FBDA0DC00DF0E81 /* Viper-logo.png in Resources */,
+				7CD877671FBDA0DC00DF0E81 /* Subaru-logo.png in Resources */,
+				7CD877701FBDA0DC00DF0E81 /* Brabus-logo.png in Resources */,
+				7CD8776C1FBDA0DC00DF0E81 /* Volkswagen-logo.png in Resources */,
+				7CD8774F1FBD9F8E00DF0E81 /* Ferrari-logo.png in Resources */,
+				7CD8776D1FBDA0DC00DF0E81 /* Jaguar-logo.png in Resources */,
+				7CD8772B1FBC512000DF0E81 /* Assets.xcassets in Resources */,
+				7CD877711FBDA0DC00DF0E81 /* Mini-logo.png in Resources */,
+				7CD877681FBDA0DC00DF0E81 /* Maybach-logo.png in Resources */,
+				7CD8777D1FBDA2DC00DF0E81 /* Skoda-logo.png in Resources */,
+				7CD877291FBC512000DF0E81 /* Main.storyboard in Resources */,
+				7CD8776A1FBDA0DC00DF0E81 /* Koenigsegg-logo.png in Resources */,
+				7CD877851FBE371D00DF0E81 /* iTunesArtwork@2x.png in Resources */,
+				7CD877641FBDA0DC00DF0E81 /* Buick-logo.png in Resources */,
+				7CD8774B1FBD9F0500DF0E81 /* Lincoln-logo.png in Resources */,
+				7CD877441FBD83D700DF0E81 /* Chevrolet-logo.png in Resources */,
+				7CD8776B1FBDA0DC00DF0E81 /* GAZ-logo.png in Resources */,
+				7CD877461FBD9D3F00DF0E81 /* Mercedes-logo.png in Resources */,
+				7CD877731FBDA0DC00DF0E81 /* Shelby-logo.png in Resources */,
+				7CD877661FBDA0DC00DF0E81 /* W-Motors-logo.png in Resources */,
+				7CD877771FBDA19A00DF0E81 /* mclaren-logo.png in Resources */,
+				7CD8774D1FBD9F3600DF0E81 /* Cadillac-logo.png in Resources */,
+				7CD877531FBDA0A600DF0E81 /* Geely-logo.png in Resources */,
+				7CD877511FBD9F9A00DF0E81 /* Genesis-logo.png in Resources */,
+				7CD877751FBDA10500DF0E81 /* Pontiac-logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD877321FBC512000DF0E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CD8771C1FBC512000DF0E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD877261FBC512000DF0E81 /* ViewController.swift in Sources */,
+				7CD877831FBE2F4800DF0E81 /* FinishViewController.swift in Sources */,
+				7CD877241FBC512000DF0E81 /* AppDelegate.swift in Sources */,
+				7CD877811FBE282C00DF0E81 /* StartViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD877301FBC512000DF0E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD877391FBC512000DF0E81 /* QuizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CD877361FBC512000DF0E81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CD8771F1FBC512000DF0E81 /* Quiz */;
+			targetProxy = 7CD877351FBC512000DF0E81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CD877271FBC512000DF0E81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CD877281FBC512000DF0E81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CD8772C1FBC512000DF0E81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CD8772D1FBC512000DF0E81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CD8773B1FBC512000DF0E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CD8773C1FBC512000DF0E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CD8773E1FBC512000DF0E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 474P4587J8;
+				INFOPLIST_FILE = Quiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rybalko.CarQuizCQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7CD8773F1FBC512000DF0E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 474P4587J8;
+				INFOPLIST_FILE = Quiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rybalko.CarQuizCQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7CD877411FBC512000DF0E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3NG4S4YWJ;
+				INFOPLIST_FILE = QuizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rybalko.QuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quiz;
+			};
+			name = Debug;
+		};
+		7CD877421FBC512000DF0E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3NG4S4YWJ;
+				INFOPLIST_FILE = QuizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rybalko.QuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quiz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CD8771B1FBC512000DF0E81 /* Build configuration list for PBXProject "Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CD8773B1FBC512000DF0E81 /* Debug */,
+				7CD8773C1FBC512000DF0E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CD8773D1FBC512000DF0E81 /* Build configuration list for PBXNativeTarget "Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CD8773E1FBC512000DF0E81 /* Debug */,
+				7CD8773F1FBC512000DF0E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CD877401FBC512000DF0E81 /* Build configuration list for PBXNativeTarget "QuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CD877411FBC512000DF0E81 /* Debug */,
+				7CD877421FBC512000DF0E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CD877181FBC512000DF0E81 /* Project object */;
+}
